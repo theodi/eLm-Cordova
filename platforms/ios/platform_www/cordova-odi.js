@@ -60,6 +60,8 @@ function test() {
 			event.preventDefault();
 			cordova.InAppBrowser.open(value,'_system');
 			return false;
+		} else if (value == "") {
+			event.preventDefault();
 		}
 		return true;
 	});

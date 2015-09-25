@@ -1,6 +1,7 @@
 www/*
 platforms/android/assets/www/*
 platforms/android/build/
+platforms/android/res/
 platforms/ios/www/*
 platforms/ios/ODI Learning.xcodeproj/
 platforms/ios/ODI Learning/

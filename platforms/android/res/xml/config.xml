@@ -9,6 +9,12 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
+    <splash density="port-hdpi" src="src-splash/android/splash-port-hdpi.png" />
+    <splash density="port-ldpi" src="src-splash/android/splash-port-ldpi.png" />
+    <splash density="port-mdpi" src="src-splash/android/splash-port-mdpi.png" />
+    <splash density="port-xhdpi" src="src-splash/android/splash-port-xhdpi.png" />
+    <splash density="port-xxhdpi" src="src-splash/android/splash-port-xxhdpi.png" />
+    <splash density="port-xxxhdpi" src="src-splash/android/splash-port-xxxhdpi.png" />
     <name>ODI Learning</name>
     <description>
     	Learn all you need to about Open Data with this app.
@@ -16,6 +22,7 @@
     <author email="training@theodi.org" href="http://theodi.org">
         The Open Data Institute
     </author>
+    <icon src="src-icons/20150923_elearning_icons3U.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

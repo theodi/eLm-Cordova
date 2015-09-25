@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.theodi.accelerate" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Learn Open Data</name>
+    <name>ODI Learning</name>
     <description>
     	Learn all you need to about Open Data with this app.
     </description>

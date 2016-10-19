@@ -41,6 +41,20 @@ There are lots and lots of dependancies. This is a technically challenging guide
   
 8. Build your project and hope. 
 
-## Step 3: Signing and deploying 
+## Step 3: Signing and deploying (IOS)
 
-TODO
+You need to be part of the Open Data Institutes team first.
+
+You then need to connect your XCode to this team. This can be done by opening the resultant xCode project that cordova builds in xCode. Once open scroll down to the signing section and add your team account.
+
+From xCode you will probably need to fix the asset catalog of icons (as cordova-icon doesn't appear to generate the correct output for xCode). 
+
+To do this upload your image to [makeappicon](https://makeappicon.com/) and download the resultant catalogue. 
+
+In xCode scroll down further in the general page of the project to the app icons section. Click the right arrow to open the appicon editor. Remove the AppIcon set that is there and then from the add sign select import. Select the IOS folder from inside the zip file that makeappicon provided you. 
+
+To build for distribution, ensure that "generic ios device" is selected as the build target at the top in xcode. 
+
+This will then allow you to build and archive the app ready for submission to iTunes connect.
+
+At this point iTunes connect will review and through back a whole load more errors for you to deal with... good luck! 
